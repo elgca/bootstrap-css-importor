@@ -59,3 +59,24 @@ bootstrap := {
   )
 }
 ```
+
+Edit App.css
+
+```css
+
+.test-demo {
+    background-color: aliceblue;
+}
+
+
+.test2 {
+    text-align: center;
+}
+```
+
+you can do in App.scala like this:
+
+```scala
+      println(btsp.test2.css)
+      println(btsp.`test-demo`.css)
+```
