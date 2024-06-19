@@ -9,10 +9,27 @@ which runs before each compilation of code to generate
 
 Or manually start it by:
 ```shell
+npm install
 sbt bootstrap
 ```
 
-The template of scalabootstrap.scala comes from Scalawind。
+# Start
+
+```shell
+# terminal1: start scalajs
+sbt cup
+# terminal2: start vite
+npm run dev
+```
+
+
+
+There is a small trouble. 
+The generator is executed before compile, 
+and the CSS file does not in SBT watch.
+After CSS change, it is necessary to edit any scala file to trigger compile.
+
+The template of scalabootstrap.scala comes from Scalawind.
 
 ## Any CSS Supported
 
