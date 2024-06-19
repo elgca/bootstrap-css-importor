@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev-debug": "vite --debug",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sourcemap-report": "node sourcemap-report.js"
+  },
+  "dependencies": {
+    "@tabler/core": "^1.0.0-beta20",
+    "bootstrap": "^5.3.3",
+    "@shoelace-style/shoelace": "^2.15.1"
+  },
+  "devDependencies": {
+    "@raquo/vite-plugin-glob-resolver": "latest",
+    "@raquo/vite-plugin-import-side-effect": "latest",
+    "@scala-js/vite-plugin-scalajs": "latest",
+    "autoprefixer": "^10.4.19",
+    "glob": "latest",
+    "http-proxy": "latest",
+    "magic-string": "latest",
+    "postcss": "latest",
+    "rollup-plugin-copy": "latest",
+    "rollup-plugin-sourcemaps": "latest",
+    "sass": "latest",
+    "scalawind": "latest",
+    "tailwindcss": "^3.4.4",
+    "terser": "latest",
+    "vite": "^5.3.1"
+  }
+}
